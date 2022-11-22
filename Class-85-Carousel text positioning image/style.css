@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+body{
+  font-family: 'Vidaloka', serif;
+}
+
+.section-padding{
+  padding: 100px 0;
+}
+
+.author-bg-1{
+  background-image: url(img/author-bg-1.jpg);
+}
+.author-bg-2{
+  background-image: url(img/author-bg-2.jpg);
+}
+.author-bg-3{
+  background-image: url(img/author-bg-3.jpg);
+}
+
+.testimonial-author-bg{
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 56%;
+}
+
+.testimonial-wrapper{
+  position: relative;
+}
+
+h2.testimonial-title{
+  position: absolute;
+  left: 0;
+  top: 50px;
+  font-size: 80px;
+  z-index: 2;
+}
+
+.testimonial-title span{
+  color: #FFF;
+}
+
+.testimonial-text{
+  font-size: 16px;
+  line-height: 1.9;
+  padding-top: 250px;
+  max-width: 40%;
+}
+
+.testimonial-author{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonial-author i.fa{
+  color: blue;
+  font-size: 25px;
+}
+
+.testimonial-author h3{
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.owl-theme .owl-nav{
+  font-size: 50px;
+  margin: 0;
+  padding-right: 12%;
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  color: #000;
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+  margin: 0;
+  border-radius: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+  background-color: blue;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background-color: #000;
+  color: #fff;
+}

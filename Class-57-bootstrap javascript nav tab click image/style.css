@@ -1,0 +1,121 @@
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.section-title h2 {
+  font-weight: 400;
+  text-align: center;
+}
+.testimonial-top img {
+  max-width: 100px;
+  margin-top: -35px;
+  display: inline-block;
+}
+.testimonial-top h3 {
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 25px;
+}
+.testimonial-top {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.testimonial-top h3 span {
+  text-transform: none;
+  opacity: 0.5;
+  font-size: 80%;
+  padding-top: 10px;
+  display: inline-block;
+}
+.single-testimonial-item {
+  color: #888;
+  font-size: 15px;
+  line-height: 1.8;
+  box-shadow: 0 0 10px #f7f7f7;
+  padding: 45px 80px;
+}
+.testimonial-content {
+  text-align: center;
+}
+.testimonial-anthor-name {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 250px;
+  overflow-y: scroll;
+}
+.testimonial-anthor-name img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+.testimonial-anthor-name h3 {
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 10px;
+  max-width: 185px;
+}
+.testimonial-anthor-name h3 span {
+  opacity: 0.5;
+  text-transform: none;
+  font-size: 80%;
+  display: inline-block;
+  padding-top: 10px;
+}
+.testimonial-anthor-name a {
+  color: #333;
+  text-decoration: none;
+}
+.testimonial-anthor-name li {
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.testimonial-wrapper {
+  position: relative;
+}
+.testimonial-right-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ecebcb;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(270deg);
+  left: -650px;
+  bottom: 550px;
+}
+.testimonial-right-title::after {
+  position: absolute;
+  right: 950px;
+  top: 50%;
+  height: 2px;
+  width: 5%;
+  content: "";
+  background-color: #ecebcb;
+}
+.testimonial-right-title span {
+  position: relative;
+  z-index: 2;
+  background-color: #000;
+  padding-right: 10px;
+}
+.testimonial-anthor-name li a {
+  opacity: 0.5;
+}
+
+.testimonial-anthor-name li a.active {
+  opacity: 1;
+}
+.ps-container > .ps-scrollbar-y-rail {
+  opacity: 1;
+}

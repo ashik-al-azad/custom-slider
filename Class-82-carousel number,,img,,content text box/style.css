@@ -1,0 +1,110 @@
+a{
+  text-decoration: none;
+}
+
+.project-bg{
+  background-image: url(img/bg-1.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 60%;
+  border: 15px solid #FFFFFF;
+  margin-left: -15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+}
+
+.section-padding{
+  padding: 100px 0;
+}
+
+.single-project-item{
+  position: relative;
+  text-align: right;
+}
+
+.project-text{
+  width: 60%;
+  background-color: #f96331;
+  color: #FFFFFF;
+  display: inline-block;
+  text-align: left;
+  padding: 80px 60px 80px 300px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  margin-top: 200px;
+}
+
+p.more-link{
+  margin-top: 40px;
+}
+
+.more-link a{
+  color: #FFFFFF;
+}
+
+.project-text h3{
+  margin-bottom: 30px;
+}
+
+.featured-projects-wrap{
+  position: relative;
+}
+
+.featured-projects-wrap h2{
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 33%;
+  font-weight: 400;
+  color: #45454B;
+}
+
+.featured-projects-wrap h2 span{
+  font-size: 50px;
+  font-weight: 300;
+  color: #27282D;
+}
+
+.featured-projects .owl-dots button:nth-child(1)::before{
+  content: '01';
+}
+.featured-projects .owl-dots button:nth-child(2)::before{
+  content: '02';
+}
+.featured-projects .owl-dots button:nth-child(3)::before{
+  content: '03';
+}
+
+
+.owl-theme .owl-dots .owl-dot span{
+  width: 0;
+  height: 0;
+}
+
+.featured-projects .owl-dots button{
+  font-size: 35px;
+  font-weight: 300;
+  margin-right: 20px;
+  opacity: .5;
+}
+
+.featured-projects .owl-dots{
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+}
+
+.featured-projects .owl-dots button.active{
+  color: #f96331;
+  opacity: 1;
+}
+
+.featured-projects-wrap{
+  box-shadow: 0 0 10px #999;
+  padding: 50px;
+}
