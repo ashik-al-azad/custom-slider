@@ -1,0 +1,137 @@
+a {
+  text-decoration: none;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-padding.dark-bg {
+  background-color: #343434;
+  color: #a5a5a5;
+}
+
+.trailor-text {
+  font-size: 16px;
+  line-height: 1.7;
+  padding-top: 50px;
+}
+
+.trailor-text h2 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.bordered-btn {
+  display: inline-block;
+  border: 2px solid #ff5151;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.bordered-btn i.fa {
+  float: right;
+  padding-top: 4px;
+}
+
+.trailor-info {
+  position: relative;
+  text-align: right;
+}
+
+.colroed-pricing-box {
+  position: absolute;
+  right: 140px;
+  background-color: #ff5151;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  width: 200px;
+  padding-top: 50px;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.colroed-pricing-box p:first-child {
+  opacity: .5;
+}
+
+.price-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  opacity: 1;
+}
+
+.colroed-pricing-box p.priceing-text {
+  color: #fff;
+}
+
+.absolute-shopping-cart {
+  position: absolute;
+  left: -25px;
+  top: 35px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  line-height: 50px;
+  font-size: 16px;
+  box-shadow: 0 0 10px #666;
+}
+
+.trailor-info img {
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+  height: 100%;
+  width: 100%;
+}
+
+#featured-trailors-carousel .owl-dots button:nth-child(1) span::before {
+  content: '01';
+}
+
+#featured-trailors-carousel .owl-dots button:nth-child(2) span::before {
+  content: '02';
+}
+
+#featured-trailors-carousel .owl-dots button:nth-child(3) span::before {
+  content: '03';
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 0px;
+  margin: 16px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: block;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  height: 20px;
+}
+
+#featured-trailors-carousel .owl-dots button {
+  border-left: 2px solid #444;
+  padding: 20px 15px;
+}
+
+#featured-trailors-carousel .owl-dots button.active {
+  border-left: 2px solid red;
+}
+
+.owl-dots {
+  position: absolute;
+  top: 30%;
+  right: -100px;
+}
