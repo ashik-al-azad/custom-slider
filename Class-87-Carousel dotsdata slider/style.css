@@ -1,0 +1,115 @@
+@font-face {
+  font-family: asiyahScript;
+  src: url(fonts/Asiyah\ Script\ -\ Demo.otf);
+}
+
+@font-face {
+  font-family: asiyahScript;
+  src: url(fonts/Asiyah\ Script\ -\ Demo.ttf);
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Karla', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0 0 15px;
+  font-weight: normal;
+  font-family: 'asiyahScript',sans-serif;
+}
+
+.carousel-bg-1{
+  background-image: url(img/bg-1.jpg);
+}
+.carousel-bg-2{
+  background-image: url(img/bg-2.jpg);
+}
+.carousel-bg-3{
+  background-image: url(img/bg-3.jpg);
+}
+
+.single-carousel-item{
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.carousel-item-tablecell{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.carousel-item-tablecell h1{
+  font-size: 150px;
+  margin-bottom: 0;
+}
+
+a.boxed-btn{
+  background-color: #d8075e;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.homepage-slides,.homepage-slides div{
+  height: 100%;
+}
+
+.homepage-slides div.carousel-item-tablecell div, .homepage-slides div.owl-nav,.homepage-slides div.owl.owl-nav div,.homepage-slides div.owl-dots,.homepage-slides div.owl-dots div{
+  height: auto;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -30px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -30px;
+}
+
+.homepage-slides .owl-dots img{
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.homepage-slides .owl-dots div{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.homepage-slides .owl-dots{
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+}
